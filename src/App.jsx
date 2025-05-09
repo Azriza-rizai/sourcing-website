@@ -10,6 +10,7 @@ function App() {
     <>
   <header>
     <div class="container">
+      <img class = "backgroundImage" href="url('/path/to/your/image.jpg')"></img>
       <h1 class="logo">EU-China Sourcing</h1>
       <nav>
         <ul class="nav-links">
@@ -33,7 +34,7 @@ function App() {
   </section>
 
   <footer>
-    <div class="container">
+    <div class="container1">
       <p>&copy; 2025 The Sourcing Co. All rights reserved.</p>
     </div>
   </footer>
