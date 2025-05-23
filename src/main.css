@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #000000;
+  background: #FFFFFF;
+}
+.container {
+  width: 100vw;
+  max-width: 1200px;
+  padding: 0%;
+  margin: 0 auto;
+
+}

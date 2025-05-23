@@ -1,8 +1,8 @@
 
-import "./Order.css";
-import NavManu from "./Navmenu";       
+import "./Navmenu.css";
+import Navmenu from "./Navmenu";       
 
-function NavManu() {    
+function Navmenu() {    
     return (
         <nav>
             <ul>
@@ -28,5 +28,5 @@ function NavManu() {
         </nav>
     );
 }
-export default NavManu;
+export default Navmenu;
 // This component is a simple navigation menu with links to Home, About, and Contact pages.
