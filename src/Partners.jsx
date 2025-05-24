@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import './Partners.css';
+=======
+import '../css/Partners.css';
+>>>>>>> eaf36dd1ff1543ee3eaf0ebfccc61b941dc29483
 
 function Partners() {
   return (

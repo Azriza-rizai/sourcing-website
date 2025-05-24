@@ -1,8 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+<<<<<<< HEAD
 import { BrowserRouter, Routes, Route } from "react-router";
 // import Layout from "./Layout.jsx";
 // import "./main.css";
+=======
+// import "../css/main.css";
+import Layout from "./Layout.jsx";
+>>>>>>> eaf36dd1ff1543ee3eaf0ebfccc61b941dc29483
 import Home from "./Home.jsx";
 import About from "./About.jsx";
 import Contact from "./Contact.jsx";

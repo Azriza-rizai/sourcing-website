@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 
 import "./Navmenu.css";
 import Navmenu from "./Navmenu";       
 
 function Navmenu() {    
+=======
+function NavManu() {    
+>>>>>>> eaf36dd1ff1543ee3eaf0ebfccc61b941dc29483
     return (
         <nav>
             <ul>

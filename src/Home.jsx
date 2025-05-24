@@ -1,4 +1,5 @@
-import "./main.css"; // Import the CSS file for styling
+import "../css/main.css"; // Import the CSS file for styling
+
 function Home() {
   return (
   <> 
@@ -61,3 +62,5 @@ function Home() {
   </>
   );
 }
+
+export default Home;
