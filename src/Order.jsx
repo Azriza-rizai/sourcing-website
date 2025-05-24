@@ -1,5 +1,5 @@
 
-import '.css/Order.css';
+import '../css/Order.css';
 
 
 function Order() {

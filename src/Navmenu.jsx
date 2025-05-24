@@ -1,7 +1,3 @@
-
-import "./Order.css";
-import NavManu from "./Navmenu";       
-
 function NavManu() {    
     return (
         <nav>
