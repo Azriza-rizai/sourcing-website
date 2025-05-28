@@ -22,7 +22,7 @@ function Home() {
           </p>
         </div>
         <div className="procurement">
-          <h3 className="sourcing">Product sourcing and procurement</h3>
+          <h3 className="sourcing">Product sourcing <br/> <br/>and procurement</h3>
           <p>
             Identify and source products from trusted suppliers based on your
             requirements, preferences, and budget.

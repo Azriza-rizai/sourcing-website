@@ -2,8 +2,8 @@ import "../css/Navmenu.css";
 
 function Navmenu() {
     return (
-        <nav>
-            <ul>
+        <nav className="header logo">
+            <ul className="nav-links">
                 <li>
                     <a href="/">Home</a>
                 </li>
