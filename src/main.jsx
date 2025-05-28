@@ -1,13 +1,8 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-<<<<<<< HEAD
-import { BrowserRouter, Routes, Route } from "react-router";
-// import Layout from "./Layout.jsx";
-// import "./main.css";
-=======
-// import "../css/main.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom"; // FIX: Should use 'react-router-dom'
 import Layout from "./Layout.jsx";
->>>>>>> eaf36dd1ff1543ee3eaf0ebfccc61b941dc29483
+// import "./main.css"; // Uncomment if you're using CSS
 import Home from "./Home.jsx";
 import About from "./About.jsx";
 import Contact from "./Contact.jsx";
@@ -25,10 +20,11 @@ createRoot(document.getElementById("root")).render(
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<Products />} />
           <Route path="/order" element={<Order />} />
-          <Route path="/partners" element={<Partners/>} />
+          <Route path="/partners" element={<Partners />} />
           <Route path="*" element={<h1>404 Not Found</h1>} />
         </Route>
       </Routes>
     </BrowserRouter>
   </StrictMode>
 );
+

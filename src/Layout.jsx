@@ -1,5 +1,5 @@
 import { Outlet } from "react-router";
-import "./Layout.css";
+import "../css/Layout.css";
 import Navmenu from "./Navmenu.jsx";
 function Layout() {
   return (

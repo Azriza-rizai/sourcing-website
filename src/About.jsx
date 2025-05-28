@@ -1,5 +1,6 @@
 
 import '../css/About.css'
+import { useState } from 'react'
 
 
 function about() {
@@ -7,8 +8,8 @@ function about() {
 
   return (
     <>
-  <main class="section">
-    <div class="container">
+  <main className="section">
+    <div className="container">
       <h2>Our Vision</h2>
       <p>To become the most reliable and innovative sourcing partner bridging the East and West.</p>
 

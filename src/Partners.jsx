@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-import './Partners.css';
-=======
 import '../css/Partners.css';
->>>>>>> eaf36dd1ff1543ee3eaf0ebfccc61b941dc29483
 
 function Partners() {
   return (
-  
     <>
-
       <section>
         <h3>Europe</h3>
         <p><strong>Address:</strong> 123 Business Road, Berlin, Germany</p>
@@ -24,7 +18,7 @@ function Partners() {
         <p><strong>Phone:</strong> +86 755 87654321</p>
         <p><strong>Services:</strong> Supplier sourcing, quality inspections, factory audits, local logistics</p>
       </section>
-  </>
+    </>
   );
 }   
 

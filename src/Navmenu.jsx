@@ -1,12 +1,6 @@
-<<<<<<< HEAD
+import "../css/Navmenu.css";
 
-import "./Navmenu.css";
-import Navmenu from "./Navmenu";       
-
-function Navmenu() {    
-=======
-function NavManu() {    
->>>>>>> eaf36dd1ff1543ee3eaf0ebfccc61b941dc29483
+function Navmenu() {
     return (
         <nav>
             <ul>
@@ -32,5 +26,5 @@ function NavManu() {
         </nav>
     );
 }
+
 export default Navmenu;
-// This component is a simple navigation menu with links to Home, About, and Contact pages.
