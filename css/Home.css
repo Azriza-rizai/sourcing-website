@@ -1,20 +1,23 @@
-/* .background {
+.background {
 
   width: 100%;
   height: auto;
   max-width: 100%;
-  object-fit: cover; */
-/* } */
+  object-fit: cover;
+
+}
 
 .hero {
-  background-image: url('../src/img/g.jpeg');
-  height: 90vh;
-  text-align: center
+  background-image: url('../src/img/hero1.png');
+  height: 91vh;
+  text-align: center;
+  top: auto;
+ 
 }
 
 .hero-content {
   position: absolute;
-  top: 40%;
+  top: 36%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #000000;
@@ -32,11 +35,12 @@
 .cta-btn {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
+  padding: 1rem 2rem;
   background: #0070f3;
   color: #FFFFFF;
   border-radius: 4px;
   text-decoration: none;
+  font-weight: 1000;
 }
 .section {
   padding: 4rem 0;
@@ -44,15 +48,32 @@
 .section.light {
   background: #fafafa;
 }
-.grid {
+
+
+
+.key {
+  padding-left: 15rem ;
+  padding-top: 5rem;
+  font-size: 4rem;
+}
+
+.supplier {
+
   display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
+  flex-direction: row;
+  min-width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
 }
-.service {
-  flex: 1;
-  min-width: 250px;
+
+.supplier img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -60,7 +81,13 @@
 }
 
 
-.supplier {
+/* .services {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space
+} */
+
+.container h2{
   display: inline-flex;
   flex-direction: row;
   justify-content: space;
@@ -105,6 +132,12 @@
   margin: 5rem 5rem 5rem 9rem;
   background:  url('/src/img/Y.png') center/cover;
 }
+
+.not-too-wide {
+  width: 30%;
+  margin: 0 auto;
+}
+
 .sourcing p {
  gap: 1rem;
   width: 20rem;
