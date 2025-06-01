@@ -61,37 +61,32 @@
 .supplier {
   display: flex;
   flex-direction: row;
+  min-width: 200px;
+  justify-content: space-between;
   align-items: center;
-  gap: 5rem;
-}
-
-.supplier-icon {
-  justify-content: left;
-  width: auto;
-  height: 20rem;
-  border-radius: 1rem;
-  margin: 5rem 0rem;
+  padding: 0 10rem;
 }
 
 .find { 
-  justify-content: right;
-  font-weight: bold;
-  font-size: 1.8rem;
-  width: 20%;
-  height: 20rem;
-  border-radius: 1rem;
-  margin: 5rem 5rem 5rem 5rem;
-}
-
-.supplier p {
   justify-content: center;
   font-weight: bold;
   font-size: 1.8rem;
-  width: 50%;
+  padding-left: 3rem;
+  padding-bottom: 5rem;
+  width: 65rem;
   height: 20rem;
   border-radius: 1rem;
   margin: 5rem 5rem 5rem 5rem;
+  background:  url('/src/img/id.png') center/cover;
 }
+
+.supplier p {
+  gap: 1rem;
+  justify-content: left;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
 
 
 
@@ -111,15 +106,15 @@
   padding-left: 3rem;
   width: 65rem;
   height: 20rem;
+  padding-bottom: 5rem;
   border-radius: 1rem;
   margin: 5rem 5rem 5rem 5rem;
-  background:  url('/src/img/z.png') center/cover;
+  background:  url('/src/img/product.png') center/cover;
 }
 
 .procurement p {
   gap: 1rem;
   justify-content: left;
-  margin-block-start: 10rem;
   font-size: 1.8rem;
   font-style: italic;
 }
@@ -143,6 +138,7 @@
   padding-left: 3rem;
   width: 65rem;
   height: 20rem;
+  padding-bottom: 5rem;
   border-radius: 1rem;
   margin: 5rem 5rem 5rem 5rem;
   background:  url('/src/img/z.png') center/cover;
@@ -151,7 +147,6 @@
 .quality p {
   gap: 1rem;
   justify-content: left;
-  margin-block-start: 10rem;
   font-size: 1.8rem;
   font-style: italic;
 }
@@ -159,7 +154,6 @@
 
 
 .prices {
-
   display: flex;
   flex-direction: row;
   min-width: 200px;
@@ -175,15 +169,15 @@
   padding-left: 3rem;
   width: 65rem;
   height: 20rem;
+  padding-bottom: 5rem;
   border-radius: 1rem;
   margin: 5rem 5rem 5rem 5rem;
-  background:  url('/src/img/z.png') center/cover;
+  background:  url('/src/img/price.png') center/cover;
 }
 
 .prices p {
   gap: 1rem;
   justify-content: left;
-  margin-block-start: 10rem;
   font-size: 1.8rem;
   font-style: italic;
 }
@@ -208,15 +202,15 @@
   padding-left: 3rem;
   width: 65rem;
   height: 20rem;
+  padding-bottom: 5rem;
   border-radius: 1rem;
   margin: 5rem 5rem 5rem 5rem;
-  background:  url('/src/img/z.png') center/cover;
+  background:  url('/src/img/log.png') center/cover;
 }
 
 .logistics p {
   gap: 1rem;
   justify-content: left;
-  margin-block-start: 10rem;
   font-size: 1.8rem;
   font-style: italic;
 }

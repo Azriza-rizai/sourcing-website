@@ -17,7 +17,6 @@ function Home() {
 
         <div className="supplier">
           <h3 className="find">Supplier indentification and vetting</h3>
-          <img src="../src/img/Y.png" className="supplier-icon" />
           <p>
             Identify and evaluate potential suppliers based on their
             credibility, reputation, and product offerings.
@@ -27,7 +26,7 @@ function Home() {
 
         <div className="procurement">
           <p>
-            Identify and source products from trusted suppliers based on your
+            Source products from trusted suppliers based on your
             requirements, preferences, and budget.
           </p>
           <h3 className="sourcing">Product sourcing and procurement</h3>
@@ -43,20 +42,20 @@ function Home() {
         </div>
 
         <div className="prices">
-          <h3 className="negotiation">Negotiation of prices and terms</h3>
           <p>
             Secure the best pricing, payment conditions, and delivery terms
             through strategic negotiation with suppliers.
           </p>
+          <h3 className="negotiation">Negotiation of prices and terms</h3>
         </div>
         
+
         
         <div
           className="logistics">
           <h3 className="shipping">Logistics and shipping management</h3>
-          <p>
-            Coordinate shipping, customs, and delivery to ensure timely and
-            secure transport of goods from supplier to destination..
+          <p> Coordinate shipping, customs, and delivery to ensure timely and
+            secure transport of goods from supplier to your door.
           </p>
         </div>
     </section>

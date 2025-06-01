@@ -10,7 +10,7 @@ function Layout() {
       <main>
         <Outlet/>
       </main>
-      <footer>2025 The Sourcing Co. All rights reserved.</footer>
+      <footer>2025 The EU-CHINA Sourcing Co. All rights reserved.</footer>
     </>
   );
 }

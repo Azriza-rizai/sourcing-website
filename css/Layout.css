@@ -2,5 +2,10 @@ footer {
   background: #000000;
   color: #FFFFFF;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
+}
+
+header {
+  position: relative;
+
 }
