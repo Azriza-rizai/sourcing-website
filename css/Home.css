@@ -88,38 +88,19 @@
   font-style: italic;
 }
 
-/* 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-} */
-
-
-/* .services {
-  display: inline-flex;
-  flex-direction: column;
-  justify-content: space
-} */
-
-.container h2{
-  display: inline-flex;
-  flex-direction: row;
-  justify-content: space;
-  gap: 3rem;
-}
-
-
 
 
 .procurement {
-  display: inline-flex;
+
+  display: flex;
   flex-direction: row;
-  justify-content: space;
-  gap: 3rem;
-    
-}   
-.sourcing { 
+  min-width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.sourrcing { 
   justify-content: center;
   font-weight: bold;
   font-size: 1.8rem;
@@ -127,71 +108,111 @@
   width: 65rem;
   height: 20rem;
   border-radius: 1rem;
-  margin: 5rem 5rem 5rem 9rem;
-  background:  url('/src/img/Y.png') center/cover;
+  margin: 5rem 5rem 5rem 0;
+  background:  url('/src/img/z.png') center/cover;
 }
 
-.not-too-wide {
-  width: 30%;
-  margin: 0 auto;
-}
-
-.sourcing p {
- gap: 1rem;
-  width: 20rem;
-  justify-content: center;
-  font-size: 1.5rem;
+.procurement p {
+  gap: 1rem;
+  justify-content: left;
+  margin-block-start: 10rem;
+  font-size: 1.8rem;
   font-style: italic;
-  padding-top: 10rem;
 }
-
 
 
 
 .quality {
-    display: inline-flex;
+
+  display: flex;
   flex-direction: row;
-  justify-content: space;
-  gap: 1rem;
+  min-width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
 }
+
 .inspection { 
   justify-content: center;
+  font-weight: bold;
+  font-size: 1.8rem;
   padding-left: 3rem;
-  width: 35rem;
+  width: 65rem;
   height: 20rem;
   border-radius: 1rem;
-  margin: 5rem 5rem 5rem 18rem;
-  background:  url('/src/img/x.png') center/cover;
+  margin: 5rem 5rem 5rem 0;
+  background:  url('/src/img/z.png') center/cover;
 }
+
 .quality p {
   gap: 1rem;
-  width: 20rem;
-  justify-content: center;
-  font-size: 1.5rem;
+  justify-content: left;
+  margin-block-start: 10rem;
+  font-size: 1.8rem;
   font-style: italic;
-  padding-top: 10rem;
 }
 
 
 
 .prices {
+
   display: flex;
-  gap: 1rem;
-  justify-content: left;
-  padding-left: 3rem;
-  width: 50%;
-  height: 20rem;
-  border-radius: 1rem;
-  margin: 5rem 5rem 5rem 27rem;
+  flex-direction: row;
+  min-width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
 }
 
-.logistics {
-  display: flex;
-  gap: 1rem;
-  justify-content: left;
+.negotiation { 
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.8rem;
   padding-left: 3rem;
-  width: 50%;
+  width: 65rem;
   height: 20rem;
   border-radius: 1rem;
-  margin: 5rem 5rem 5rem 36rem;
+  margin: 5rem 5rem 5rem 0;
+  background:  url('/src/img/z.png') center/cover;
+}
+
+.prices p {
+  gap: 1rem;
+  justify-content: left;
+  margin-block-start: 10rem;
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+
+
+
+.logistics {
+
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rem;
+}
+
+.shipping { 
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding-left: 3rem;
+  width: 65rem;
+  height: 20rem;
+  border-radius: 1rem;
+  margin: 5rem 5rem 5rem 0;
+  background:  url('/src/img/z.png') center/cover;
+}
+
+.logistics p {
+  gap: 1rem;
+  justify-content: left;
+  margin-block-start: 10rem;
+  font-size: 1.8rem;
+  font-style: italic;
 }

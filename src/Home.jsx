@@ -42,7 +42,7 @@ function Home() {
         </div>
 
         <div className="prices">
-          <h3>Negotiation of prices and terms</h3>
+          <h3 className="negotiation">Negotiation of prices and terms</h3>
           <p>
             Secure the best pricing, payment conditions, and delivery terms
             through strategic negotiation with suppliers.
@@ -52,14 +52,12 @@ function Home() {
         
         <div
           className="logistics">
-          <h3>Logistics and shipping management</h3>
+          <h3 className="shipping">Logistics and shipping management</h3>
           <p>
             Coordinate shipping, customs, and delivery to ensure timely and
             secure transport of goods from supplier to destination..
           </p>
         </div>
-
-
     </section>
   </>
   );
