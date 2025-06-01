@@ -59,39 +59,43 @@
 }
 
 .supplier {
-
   display: flex;
   flex-direction: row;
-  min-width: 200px;
-  justify-content: space-between;
   align-items: center;
-  padding: 0 10rem;
+  gap: 5rem;
+}
+
+.supplier-icon {
+  justify-content: left;
+  width: auto;
+  height: 20rem;
+  border-radius: 1rem;
+  margin: 5rem 0rem;
 }
 
 .find { 
-  justify-content: center;
+  justify-content: right;
   font-weight: bold;
   font-size: 1.8rem;
-  padding-left: 3rem;
-  width: 65rem;
+  width: 20%;
   height: 20rem;
   border-radius: 1rem;
-  margin: 5rem 5rem 5rem 0;
-  background:  url('/src/img/z.png') center/cover;
+  margin: 5rem 5rem 5rem 5rem;
 }
 
 .supplier p {
-  gap: 1rem;
-  justify-content: left;
-  margin-block-start: 10rem;
+  justify-content: center;
+  font-weight: bold;
   font-size: 1.8rem;
-  font-style: italic;
+  width: 50%;
+  height: 20rem;
+  border-radius: 1rem;
+  margin: 5rem 5rem 5rem 5rem;
 }
 
 
 
 .procurement {
-
   display: flex;
   flex-direction: row;
   min-width: 200px;
@@ -100,7 +104,7 @@
   padding: 0 10rem;
 }
 
-.sourrcing { 
+.sourcing { 
   justify-content: center;
   font-weight: bold;
   font-size: 1.8rem;
@@ -108,7 +112,7 @@
   width: 65rem;
   height: 20rem;
   border-radius: 1rem;
-  margin: 5rem 5rem 5rem 0;
+  margin: 5rem 5rem 5rem 5rem;
   background:  url('/src/img/z.png') center/cover;
 }
 
@@ -140,7 +144,7 @@
   width: 65rem;
   height: 20rem;
   border-radius: 1rem;
-  margin: 5rem 5rem 5rem 0;
+  margin: 5rem 5rem 5rem 5rem;
   background:  url('/src/img/z.png') center/cover;
 }
 
@@ -172,7 +176,7 @@
   width: 65rem;
   height: 20rem;
   border-radius: 1rem;
-  margin: 5rem 5rem 5rem 0;
+  margin: 5rem 5rem 5rem 5rem;
   background:  url('/src/img/z.png') center/cover;
 }
 
@@ -205,7 +209,7 @@
   width: 65rem;
   height: 20rem;
   border-radius: 1rem;
-  margin: 5rem 5rem 5rem 0;
+  margin: 5rem 5rem 5rem 5rem;
   background:  url('/src/img/z.png') center/cover;
 }
 

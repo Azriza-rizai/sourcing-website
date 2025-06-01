@@ -16,7 +16,8 @@ function Home() {
 
 
         <div className="supplier">
-          <h3 className="find">Supplier identification and verification</h3>
+          <h3 className="find">Supplier indentification and vetting</h3>
+          <img src="../src/img/Y.png" className="supplier-icon" />
           <p>
             Identify and evaluate potential suppliers based on their
             credibility, reputation, and product offerings.
@@ -25,11 +26,11 @@ function Home() {
 
 
         <div className="procurement">
-          <h3 className="sourcing">Product sourcing and procurement</h3>
           <p>
             Identify and source products from trusted suppliers based on your
             requirements, preferences, and budget.
           </p>
+          <h3 className="sourcing">Product sourcing and procurement</h3>
         </div>
 
 
