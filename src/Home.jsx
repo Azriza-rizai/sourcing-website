@@ -55,7 +55,7 @@ function Home() {
           className="logistics">
           <h3 className="shipping">Logistics and Shipping Management</h3>
           <p> Coordinate shipping, customs, and delivery to ensure timely and
-            secure transport of goods from supplier to your door.
+            secure transport of goods from supplier to your doorstep.
           </p>
         </div>
     </section>

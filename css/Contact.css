@@ -1,7 +1,171 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.section {
+  padding: 20px;
   background-color: #f9f9f9;
+}
+.contact-list {
   color: #333;
+}
+.contact-title {  
+  font-size: 32px;  
+  margin-bottom: 20px;
+}
+.contact-description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px; 
+  font-size: 16px;
+  color: #666;
+}
+
+
+.contact-list {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;  
+}
+
+.email {
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+  background-image: url('https://example.com/email-icon.png');
+}
+.email:hover {
+  text-decoration: underline;
+}
+
+
+
+.phone {
+  font-weight: bold;
+  color: #28a745;
+  text-decoration: none;
+  background-image: url('https://example.com/phone-icon.png');
+}
+.phone:hover {
+  text-decoration: underline;
+}
+.address {
+  font-weight: bold;
+  color: #dc3545;
+  text-decoration: none;
+  background-image: url('https://example.com/address-icon.png');
+}
+.address:hover {
+  text-decoration: underline;
+}
+.business-hours {
+  font-weight: bold;
+  color: #ffc107;
+  text-decoration: none;
+  background-image: url('https://example.com/hours-icon.png');
+}
+.business-hours:hover {
+  text-decoration: underline;
+}
+.social-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 4fr));
+  gap: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;    
+  margin-bottom: 15px;
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #1da1f2;
+  font-size: 18px;
+}
+.linkedin {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0077b5;
+  font-size: 18px;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #c32aa3;
+  font-size: 18px;
+}
+.youtube {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ff0000;
+  font-size: 18px;
+}
+.pinterest {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #bd081c;
+  font-size: 18px;
+}
+.tikTok {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #69c9d0;
+  font-size: 18px;
+}
+.whatsapp {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #25d366;
+  font-size: 18px;
+}
+.telegram {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0088cc;
+  font-size: 18px;
+}
+.wechat {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #7bb32e;
+  font-size: 18px;
+}
+.slack {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #4a154b;
+  font-size: 18px;
+}
+.github {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
 }

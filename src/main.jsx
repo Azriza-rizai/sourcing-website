@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom"; // FIX: Should use 'react-router-dom'
+import { BrowserRouter, Routes, Route } from "react-router"; // FIX: Should use 'react-router-dom'
 import Layout from "./Layout.jsx";
 // import "./main.css"; // Uncomment if you're using CSS
 import Home from "./Home.jsx";
